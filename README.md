@@ -1,6 +1,18 @@
 # PracticaGrupoDisenho
-Grupo de trabajo formado por Nerea,Diego,Luis y Samuel.
 
-Empresa de Carlos, Guillermo y Valentino.
+## Grupo de trabajo formado por: 
+    Nerea
+    Diego
+    Luis 
+    Samuel
 
-Clientes de Fernando, Daniel, Andres y Alex.
+### Empresa de:
+    Carlos
+    Guillermo
+    Valentino
+
+### Clientes de:
+    Fernando
+    Daniel
+    Andres
+    Alex
