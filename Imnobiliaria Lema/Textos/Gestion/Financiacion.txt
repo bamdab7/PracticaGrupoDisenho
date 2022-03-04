@@ -1,0 +1,20 @@
+Pago al contado:
+Este método de pago supone el desembolso total del precio de la propiedad por parte del comprador, normalmente con dinero procedente de sus ahorros.
+
+Pago a plazos:
+Desembolso del precio de la propiedad por parte del comprador en los plazos acordados con el vendedor.
+
+Hipoteca fija:
+Se trata de una hipoteca que no tiene variación en cuanto al pago de las cuotas,
+esto quiere decir que durante todo el periodo de duración de la hipoteca, siempre se paga la misma cuota.
+Estas hipotecas son estables y no se ven afectadas por las subidas y bajadas del euríbor.
+
+Hipoteca variable:
+En el momento en el que se solicita la hipoteca al banco, este realiza una revisión del euríbor en ese mismo 
+instante para establecer el tipo de interés. Esto quiere decir que si el tipo de interés baja, las cuotas también lo harán, 
+pero si en cambio, el euríbor sube, las cuotas serán más caras.
+
+Hipoteca mixta:
+Este tipo de hipotecas combinan las dos anteriores con un periodo inicial, un tipo de interés fijo (las cuotas son estables) durante
+los primeros años de amortización. Más tarde, pasan a un tipo de interés variable en el que las cuotas varían según la evolución del índice de referencia.
+
