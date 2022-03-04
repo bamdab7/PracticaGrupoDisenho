@@ -1,0 +1,10 @@
+Formulario en el que el usuario que quiera vender o alquilar alguna casa pueda introducir unos datos para que luego la empresa contacte con ellos.
+Formulario que contenga:
+	Nombre y apellidos
+	DNI
+	Correo electronico
+	Telefono
+	Fotos de la casa
+	Descricion de la casa
+	Ubicacion de la casa
+	Caracteristicas de la casa (sería una seccion en la que el usuario rellena con un checkbox, por ejemplo si tiene internet o acepta mascotas)
