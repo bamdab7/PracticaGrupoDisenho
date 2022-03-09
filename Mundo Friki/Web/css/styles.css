@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "Japanola";
+    src: url("../font/Japanola.ttf.ttf");
+}
+
+.titulo {
+    font-family: "Japanola";
+}
