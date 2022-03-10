@@ -7,9 +7,7 @@
     Samuel
 
 ### Empresa de:
-    Carlos
-    Guillermo
-    Valentino
+    Monica
 
 ### Clientes de:
     Fernando
