@@ -6,3 +6,14 @@
 .titulo {
     font-family: "Japanola";
 }
+
+.colocacionTitulo {
+    margin-left: 20px;
+}
+
+.colocacionMenu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left:15px;
+}

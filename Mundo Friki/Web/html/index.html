@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Material Design for Bootstrap</title>
+    <title>Inicio</title>
     <!-- MDB icon -->
-    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="../img/Logo.png" type="image/x-icon" />
     <!-- Hoja de estilos propia -->
     <link rel="stylesheet" href="../css/styles.css"/>
     <!-- Font Awesome -->
@@ -20,18 +20,53 @@
     <link rel="stylesheet" href="../css/mdb.min.css" />
   </head>
   <body>
-    <!-- Start your project here-->
-    <div class="container">
-      <div class="d-flex justify-content-center align-items-center" style="height: 100vh;">
-        <div class="text-center">
-          <h1 class="titulo">Inicio</h1>
-        </div>
+    <!-- Inicio del proyecto -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <ul class="navbar-nav d-flex flex-row">
+          <!-- Menú desplegable -->
+          <li class="nav-item me-3 me-lg-0 dropdown colocacionMenu">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-mdb-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <i class="fas fa-align-justify"></i>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li>
+                <a class="dropdown-item" href="#">Action</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Another action</a>
+              </li>
+              <li><hr class="dropdown-divider" /></li>
+              <li>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </li>
+            </ul>
+          </li>
+          <!-- Nombre de la tienda -->
+          <a class="navbar-brand colocacionTitulo" href="./index.html">
+            <small class="titulo">La tienda friki</small>
+            <img
+              src="../img/Logo.png"
+              class="me-2"
+              height="70"
+              alt="MDB Logo"
+              loading="lazy"
+            />
+          </a>
+        </ul>
       </div>
-    </div>
-    <!-- End your project here-->
+    </nav>
+    <!-- Fin del proyecto -->
 
     <!-- MDB -->
-    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <script type="text/javascript" src="../js/mdb.min.js"></script>
     <!-- Custom scripts -->
     <script type="text/javascript"></script>
   </body>
