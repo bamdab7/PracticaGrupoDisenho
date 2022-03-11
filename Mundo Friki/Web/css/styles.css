@@ -3,8 +3,18 @@
     src: url("../font/Japanola.ttf.ttf");
 }
 
+.header {
+    background-color: #E3CACA;
+}
+
 .titulo {
     font-family: "Japanola";
+    font-size: 35px;
+}
+
+.logo{
+    width: 100%;
+    max-width: 100px;
 }
 
 .colocacionTitulo {

@@ -21,50 +21,172 @@
   </head>
   <body>
     <!-- Inicio del proyecto -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <ul class="navbar-nav d-flex flex-row">
-          <!-- Menú desplegable -->
-          <li class="nav-item me-3 me-lg-0 dropdown colocacionMenu">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              id="navbarDropdown"
-              role="button"
-              data-mdb-toggle="dropdown"
-              aria-expanded="false"
-            >
-              <i class="fas fa-align-justify"></i>
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li>
-                <a class="dropdown-item" href="#">Action</a>
+    <!-- Inicio del header -->
+    <header>
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg bg-light navbar-light ">
+        <!-- Container wrapper -->
+        <div class="container-fluid">
+          <!-- Navbar brand -->
+          <a class="navbar-brand titulo" href="./index.html">La tienda friki <span><img src="../img/Logo.png" alt="Logo" class="logo"></span></a>
+
+          <!-- Toggle button -->
+          <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+          </button>
+
+          <!-- Collapsible wrapper -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+              <!-- Dropdown -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+                  <i class="fas fa-align-justify fa-lg"></i>
+                </a>
+                <!-- Dropdown menu -->
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li>
+                    <a class="dropdown-item" href="#">Action</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Another action</a>
+                  </li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
               </li>
-              <li>
-                <a class="dropdown-item" href="#">Another action</a>
+
+            </ul>
+
+            <!-- Icons -->
+            <ul class="navbar-nav d-flex flex-row me-1">
+              <li class="nav-item me-3 me-lg-0">
+                <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i></a>
               </li>
-              <li><hr class="dropdown-divider" /></li>
-              <li>
-                <a class="dropdown-item" href="#">Something else here</a>
+              <li class="nav-item me-3 me-lg-0">
+                <a class="nav-link" href="#"><i class="fab fa-twitter"></i></a>
               </li>
             </ul>
-          </li>
-          <!-- Nombre de la tienda -->
-          <a class="navbar-brand colocacionTitulo" href="./index.html">
-            <small class="titulo">La tienda friki</small>
-            <img
-              src="../img/Logo.png"
-              class="me-2"
-              height="70"
-              alt="MDB Logo"
-              loading="lazy"
-            />
-          </a>
-        </ul>
+
+            <!-- Search -->
+            <form class="w-auto">
+              <input type="search" class="form-control" placeholder="Type query" aria-label="Search">
+            </form>
+
+          </div>
+        </div>
+        <!-- Container wrapper -->
+      </nav>
+<!-- Navbar -->
+    </header>  
+    <!-- Fin del header-->
+    <!-- Inicio del cuerpo -->
+    <div class="container mt-4">
+      <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12">
+        <div id="carouselExampleIndicators" class="carousel slide" data-mdb-ride="carousel">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-mdb-target="#carouselExampleIndicators"
+              data-mdb-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-mdb-target="#carouselExampleIndicators"
+              data-mdb-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-mdb-target="#carouselExampleIndicators"
+              data-mdb-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp" class="d-block w-100" alt="Wild Landscape"/>
+            </div>
+            <div class="carousel-item">
+              <img src="https://mdbcdn.b-cdn.net/img/new/slides/042.webp" class="d-block w-100" alt="Camera"/>
+            </div>
+            <div class="carousel-item">
+              <img src="https://mdbcdn.b-cdn.net/img/new/slides/043.webp" class="d-block w-100" alt="Exotic Fruits"/>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-mdb-target="#carouselExampleIndicators" data-mdb-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-mdb-target="#carouselExampleIndicators" data-mdb-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
       </div>
-    </nav>
+      
+      <div class="row mt-4">
+        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris turpis mi,
+             pulvinar vitae elementum ac, auctor ac enim. Praesent quam ligula, auctor non consequat 
+             et, pellentesque sit amet diam. Cras dictum ornare commodo. Donec hendrerit urna ipsum, 
+             eget pellentesque odio euismod quis. Sed vel orci non est tincidunt auctor sit amet in 
+             nulla. Mauris rhoncus semper egestas. Fusce quis mattis ligula. Duis rutrum aliquam lorem, 
+             vel aliquet mauris luctus sit amet. Pellentesque quis mi tincidunt, accumsan tortor at, 
+             dictum nisi.Pellentesque posuere risus orci, id rhoncus mauris ornare non. Mauris suscipit maximus lacinia. Morbi metus lorem, ullamcorper ac gravida vitae, dapibus placerat purus. Pellentesque hendrerit sollicitudin porta. Proin ligula nisi, sodales eget augue sit amet, vulputate volutpat magna. Maecenas vitae dapibus purus, ac finibus urna. Duis in elit sodales, aliquam quam convallis, scelerisque dolor. Etiam id fringilla lacus. Sed quis erat quis nibh sollicitudin mattis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+             Etiam id fringilla lacus. Sed quis erat quis nibh sollicitudin mattis. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+        </div>
+        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12">
+          <div class="elfsight-app-de1a43bd-1c3b-4b78-828b-a3c7c00096c7"></div>
+        </div>
+      </div>
+
+      <div class="row mt-2">
+        <div class="col-12">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris turpis mi,
+             pulvinar vitae elementum ac, auctor ac enim. Praesent quam ligula, auctor non consequat 
+             et, pellentesque sit amet diam. Cras dictum ornare commodo. Donec hendrerit urna ipsum, 
+             eget pellentesque odio euismod quis. Sed vel orci non est tincidunt auctor sit amet in 
+             nulla. Mauris rhoncus semper egestas. Fusce quis mattis ligula. Duis rutrum aliquam lorem, 
+             vel aliquet mauris luctus sit amet. Pellentesque quis mi tincidunt, accumsan tortor at, 
+             dictum nisi.Pellentesque posuere risus orci, id rhoncus mauris ornare non. Mauris suscipit maximus lacinia. Morbi metus lorem, ullamcorper ac gravida vitae, dapibus placerat purus. Pellentesque hendrerit sollicitudin porta. Proin ligula nisi, sodales eget augue sit amet, vulputate volutpat magna. Maecenas vitae dapibus purus, ac finibus urna. Duis in elit sodales, aliquam quam convallis, scelerisque dolor. Etiam id fringilla lacus. Sed quis erat quis nibh sollicitudin mattis. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+        </div>
+      </div>
+
+      <div class="row mt-2">
+        <div class="col-12">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris turpis mi,
+             pulvinar vitae elementum ac, auctor ac enim. Praesent quam ligula, auctor non consequat 
+             et, pellentesque sit amet diam. Cras dictum ornare commodo. Donec hendrerit urna ipsum, 
+             eget pellentesque odio euismod quis. Sed vel orci non est tincidunt auctor sit amet in 
+             nulla. Mauris rhoncus semper egestas. Fusce quis mattis ligula. Duis rutrum aliquam lorem, 
+             vel aliquet mauris luctus sit amet. Pellentesque quis mi tincidunt, accumsan tortor at, 
+             dictum nisi.Pellentesque posuere risus orci, id rhoncus mauris ornare non. Mauris suscipit maximus lacinia. Morbi metus lorem, ullamcorper ac gravida vitae, dapibus placerat purus. Pellentesque hendrerit sollicitudin porta. Proin ligula nisi, sodales eget augue sit amet, vulputate volutpat magna. Maecenas vitae dapibus purus, ac finibus urna. Duis in elit sodales, aliquam quam convallis, scelerisque dolor. Etiam id fringilla lacus. Sed quis erat quis nibh sollicitudin mattis. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+        </div>
+      </div>
+
+      </div>
+      
+    </div>
+    <!-- Fin del cuerpo -->
+
+
+
+
+
+
     <!-- Fin del proyecto -->
 
+    <!-- Script galeria Instagram-->
+    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
     <!-- MDB -->
     <script type="text/javascript" src="../js/mdb.min.js"></script>
     <!-- Custom scripts -->
