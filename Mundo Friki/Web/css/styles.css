@@ -39,3 +39,29 @@
 .iconos {
     color: black;
 }
+
+.colocacionLoginRegistro {
+    padding-right: 300px;
+    padding-left: 300px;
+}
+
+.active[class*="nav-link"]{
+    background-color: #F3C5F9 !important;
+}
+
+.btn-primary {
+    background-color: #A1C3D4 !important;
+}
+
+.btn-secondary{
+    background-color: #F3C5F9 !important;
+}
+
+a[href*="#!"] {
+    color: black !important;
+}
+
+input[class*="form-check-input"]:checked {
+    background-color: #F3C5F9 !important;
+    border-color: #F3C5F9 !important;
+}
