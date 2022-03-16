@@ -28,6 +28,14 @@
     margin-left:15px;
 }
 
+#imagenQuienesSomos{
+    width:100%;
+}
+.divQuienesSomos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .iconos {
     color: black;
 }
