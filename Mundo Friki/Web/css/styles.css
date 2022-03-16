@@ -4,7 +4,7 @@
 }
 
 .header {
-    background-color: #E3CACA;
+    background-color: #F9C5D4;
 }
 
 .titulo {
@@ -18,7 +18,7 @@
 }
 
 .colocacionTitulo {
-    margin-left: 20px;
+    text-align: center;
 }
 
 .colocacionMenu {
@@ -26,4 +26,8 @@
     align-items: center;
     justify-content: center;
     margin-left:15px;
+}
+
+.iconos {
+    color: black;
 }
