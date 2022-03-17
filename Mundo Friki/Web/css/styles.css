@@ -65,3 +65,30 @@ input[class*="form-check-input"]:checked {
     background-color: #F3C5F9 !important;
     border-color: #F3C5F9 !important;
 }
+
+/* Estilos de la barra de scroll */
+
+/* Cambia el ancho de la barra de scroll */
+body::-webkit-scrollbar {
+    width: 20px;
+}
+
+/* Modifica los estilos de la propia barra de scroll */
+body::-webkit-scrollbar-thumb {
+    background-color: #d6dee1;
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
+}
+
+/* Cambia el color de la barra de scroll al poner el cursor encima */
+body::-webkit-scrollbar-thumb:hover {
+    background-color: #F9C5D4;
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
+}
+
+.colorImagenHover {
+    background-color: rgb(247, 206, 248, 0.3);
+}
