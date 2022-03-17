@@ -92,3 +92,32 @@ body::-webkit-scrollbar-thumb:hover {
 .colorImagenHover {
     background-color: rgb(247, 206, 248, 0.3);
 }
+
+.filtros {
+    background-color: rgb(247, 206, 248, 0.4);
+}
+
+.tituloFiltro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Japanola";
+    font-size: 35px;
+    color: black;
+}
+
+input[class*="form-check-input filtro"]:checked {
+    background-color: #A1C3D4 !important;
+    border-color:  #A1C3D4!important;
+}
+
+.form-check {
+    display: flex !important;
+    justify-content: start !important;
+    align-items: center !important;
+}
+
+.botonFiltro {
+    display: flex;
+    justify-content: center;
+}
