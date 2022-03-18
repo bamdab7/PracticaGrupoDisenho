@@ -131,3 +131,13 @@ input[class*="form-check-input filtro"]:checked {
 .negrita {
     font-weight: bold;
 }
+
+.fondoArticuloCarrito {
+    background-color: rgb(247, 206, 248, 0.4);
+}
+
+.itemCarrito {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
