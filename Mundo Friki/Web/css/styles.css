@@ -127,3 +127,7 @@ input[class*="form-check-input filtro"]:checked {
     justify-content: center;
     align-items: center;
 }
+
+.negrita {
+    font-weight: bold;
+}
