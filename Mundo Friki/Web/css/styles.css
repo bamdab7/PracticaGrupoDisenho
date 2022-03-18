@@ -40,7 +40,7 @@
     color: black;
 }
 
-.colocacionLoginRegistro {
+.colocacionLoginRegistroContacto {
     padding-right: 300px;
     padding-left: 300px;
 }
@@ -120,4 +120,10 @@ input[class*="form-check-input filtro"]:checked {
 .botonFiltro {
     display: flex;
     justify-content: center;
+}
+
+.paginacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
