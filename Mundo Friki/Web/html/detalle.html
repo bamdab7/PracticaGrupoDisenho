@@ -20,7 +20,8 @@
         <link rel="stylesheet" href="../css/mdb.min.css" />
     </head>
     <body>
-
+        <div id="fb-root"></div>
+        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v13.0" nonce="UaXw3CPP"></script>
         <!-- Inicio del header -->
         <header>
         <nav class="navbar navbar-light header">
@@ -89,9 +90,20 @@
     <!-- Navbar -->
         <!-- Fin del header-->
             <div class="row">
-                <div class="col-5">IMAGEN PRODUTO</div>
-                <div class="col-md-3">.col-6 .col-md-4</div>
-                <div class="col-6 col-md-4"> <!--DETALLES PRODUCTO-->
+                <div class="col-4"> <img src="https://lafrikileria.com/102105-large_default/figura-luffy-one-piece-banpresto-chronicle-master-24-cm.jpg" class="img-fluid" alt="Luffy"/></div>
+
+                <div class="col-4">
+                    <div class="card mt-4 mb-3">
+                        <h5 class="card-header">Featured</h5>
+                        <div class="card-body mt-2 mb-2">
+                            <h5 class="card-title">Special title treatment</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipiscing elit orci, sociis condimentum augue maecenas libero erat cursus litora odio, venenatis in diam ut per varius tempor.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-4 col-md-4"> <!--DETALLES PRODUCTO-->
 
                         <div class="card mt-3" style="width: 18rem;">
                             <div class="card-body">
@@ -116,10 +128,32 @@
 
             </div>
             <div class="row">
-                <div class="col-12 col-md-12">TEXTO desplegable</div>
+                <div class="col-12 col-md-12 mt-4 ms-3">
+                    <button
+                        class="btn btn-primary"
+                        type="button"
+                        data-mdb-toggle="collapse"
+                        data-mdb-target="#collapseExample"
+                        aria-expanded="false"
+                        aria-controls="collapseExample"
+                    >
+                        Más información <i class="fas fa-angle-down"></i>
+                    </button>
+
+                    <!-- Collapsed content -->
+                    <div class="collapse mt-3" id="collapseExample">
+                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit faucibus, rhoncus sed vestibulum porta torquent nam litora, sollicitudin augue hendrerit praesent odio enim pharetra. Leo lobortis luctus imperdiet dignissim commodo in habitasse parturient, velit mauris hac nulla augue ligula vestibulum, et montes tristique taciti litora cras magnis. Mauris magna sollicitudin ultricies vehicula tempor tristique fermentum magnis diam, libero ligula vestibulum montes tincidunt vivamus convallis lobortis condimentum, torquent felis pharetra platea sociosqu massa facilisi feugiat. Sapien libero tristique potenti penatibus mi aenean inceptos, mattis viverra cras ligula non cursus ac, curae aliquam risus hac enim porta.</p> <p>Urna suspendisse ultrices tristique mauris habitasse nulla, neque pellentesque nullam ridiculus ad natoque, curae egestas litora risus condimentum. Metus cubilia euismod eros phasellus conubia tempus a lectus, arcu lobortis elementum netus maecenas sollicitudin leo convallis mollis, blandit sociosqu praesent molestie ullamcorper interdum consequat. Ligula tempus cubilia elementum aliquet faucibus phasellus, nascetur auctor fames tincidunt penatibus aliquam vehicula, curabitur fermentum sapien cras vitae. Per ut sollicitudin libero porta montes tempus, morbi vel interdum arcu augue nibh, sociis consequat vehicula tellus senectus.</p> <p>Diam tellus urna nec nostra mus curabitur varius pharetra viverra, magna quis convallis fames ut hendrerit aptent habitasse congue lacus, accumsan mollis bibendum praesent quisque mauris felis sagittis. Faucibus vivamus accumsan aliquam diam varius nascetur dignissim ut placerat, parturient lacinia cum volutpat inceptos taciti ac mi leo, orci nisi egestas nullam tempus sapien ante etiam. Nibh pulvinar phasellus aliquam dignissim felis, cum viverra aptent etiam, purus donec in habitant.</p>
+                    </div>
+
+                </div>
             </div>
             <div class="row">
-                <div class="col-12">COMENTARIOS</div>
+                <div class="col-12">
+                    <div class="ctn-lbl-comentar">
+                        <label class="lbl-comentar"> Lista de comentarios</label>
+                    </div>
+                    <div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-width="100%" data-numposts="2"></div>
+                </div>
 
             </div>
 
