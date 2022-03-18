@@ -132,3 +132,10 @@ input[class*="form-check-input filtro"]:checked {
     font-weight: bold;
 }
 
+.ctn-lbl-comentar{
+    width:100%;
+    text-align: center;
+}
+.lbl-comentar{
+    font-size:20px;
+}
