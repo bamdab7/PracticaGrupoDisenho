@@ -139,3 +139,13 @@ input[class*="form-check-input filtro"]:checked {
 .lbl-comentar{
     font-size:20px;
 }
+
+.fondoArticuloCarrito {
+    background-color: rgb(247, 206, 248, 0.4);
+}
+
+.itemCarrito {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
