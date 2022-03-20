@@ -25,41 +25,44 @@
     <header>
       <nav class="navbar navbar-light header">
         <div class="container-fluid">
-          <ul class="navbar-nav">
-            <!-- Dropdown -->
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle ms-2"
-                href="#"
-                id="navbarDropdownMenuLink"
-                role="button"
-                data-mdb-toggle="dropdown"
-                aria-expanded="false"
-              >
-                <i class="fas fa-align-justify iconos"></i>
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li>
-                  <a class="dropdown-item" href="./index.html">Inicio</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="./quienes_somos.html">Quiénes somos</a>
-                </li>
-                <li><hr class="dropdown-divider" /></li>
-                <li>
-                  <a class="dropdown-item" href="./figuras.html">Figuras</a>
-                </li>
-                <li><hr class="dropdown-divider" /></li>
-                <li>
-                  <a class="dropdown-item" href="./contacto.html">Contacto</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="./login.html">Log in</a>
-                </li>
-              </ul>
-            </li>
-          </ul>
-          <a class="navbar-brand colocacionTitulo" href="./index.html">
+          <div class="col-xxl-1 col-xl-1 col-lg-1 col-md-1 col-sm-3">
+            <ul class="navbar-nav">
+              <!-- Dropdown -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle ms-2 menuNavBar"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-mdb-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <i class="fas fa-align-justify iconos"></i>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li>
+                    <a class="dropdown-item" href="./index.html">Inicio</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./quienes_somos.html">Quiénes somos</a>
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="./figuras.html">Figuras</a>
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="./contacto.html">Contacto</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./login.html">Log in</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="col-xxl-8 col-xl-8 col-lg-8 col-md-7 col-sm-9">
+            <a class="navbar-brand colocacionTitulo" href="./index.html">
             <small class="titulo">La tienda friki</small>
             <img
               src="../img/Logo.png"
@@ -69,25 +72,29 @@
               loading="lazy"
             />
           </a>
-          <form class="d-flex input-group w-auto">
-            <input
-              type="Buscar..."
-              class="form-control rounded"
-              placeholder="Buscar..."
-              aria-label="Search"
-              aria-describedby="search-addon"
-            />
-            <span class="input-group-text border-0" id="search-addon">
-              <i class="fas fa-search iconos"></i>
-            </span>
-            <a class="nav-link" href="./carrito.html">
-              <i class="fas fa-shopping-cart iconos"></i>
-            </a>
-          </form>
+          </div>
+          <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-12">
+            <form class="d-flex input-group w-auto">
+              <input
+                type="Buscar..."
+                class="form-control rounded"
+                placeholder="Buscar..."
+                aria-label="Search"
+                aria-describedby="search-addon"
+              />
+              <span class="input-group-text border-0" id="search-addon">
+                <i class="fas fa-search iconos"></i>
+              </span>
+              <a class="nav-link" href="./carrito.html">
+                <i class="fas fa-shopping-cart iconos"></i>
+              </a>
+            </form>
+        </div>
         </div>
       </nav>
-<!-- Navbar -->
-      <!-- Fin del header-->
+    </header>  
+    <!-- Fin del header-->
+    
   <!-- Inicio del cuerpo -->
   <div class="container mt-4">
     <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12">

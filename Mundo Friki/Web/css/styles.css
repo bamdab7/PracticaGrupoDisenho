@@ -17,15 +17,14 @@
     max-width: 100px;
 }
 
-.colocacionTitulo {
-    text-align: center;
+.navbar>.container-fluid {
+    justify-content: flex-start !important;
 }
 
-.colocacionMenu {
-    display: flex;
-    align-items: center;
+.menuNavBar {
+    display: flex !important;
     justify-content: center;
-    margin-left:15px;
+    align-items: center;
 }
 
 #imagenQuienesSomos{

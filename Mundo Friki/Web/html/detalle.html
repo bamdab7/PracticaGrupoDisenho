@@ -23,140 +23,153 @@
         <div id="fb-root"></div>
         <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v13.0" nonce="UaXw3CPP"></script>
         <!-- Inicio del header -->
-        <header>
+    <header>
         <nav class="navbar navbar-light header">
-            <div class="container-fluid">
-            <ul class="navbar-nav">
+          <div class="container-fluid">
+            <div class="col-xxl-1 col-xl-1 col-lg-1 col-md-1 col-sm-3">
+              <ul class="navbar-nav">
                 <!-- Dropdown -->
                 <li class="nav-item dropdown">
-                <a
-                    class="nav-link dropdown-toggle ms-2"
+                  <a
+                    class="nav-link dropdown-toggle ms-2 menuNavBar"
                     href="#"
                     id="navbarDropdownMenuLink"
                     role="button"
                     data-mdb-toggle="dropdown"
                     aria-expanded="false"
-                >
+                  >
                     <i class="fas fa-align-justify iconos"></i>
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                     <li>
-                    <a class="dropdown-item" href="./index.html">Inicio</a>
+                      <a class="dropdown-item" href="./index.html">Inicio</a>
                     </li>
                     <li>
-                    <a class="dropdown-item" href="./quienes_somos.html">Quiénes somos</a>
-                    </li>
-                    <li><hr class="dropdown-divider" /></li>
-                    <li>
-                    <a class="dropdown-item" href="./figuras.html">Figuras</a>
+                      <a class="dropdown-item" href="./quienes_somos.html">Quiénes somos</a>
                     </li>
                     <li><hr class="dropdown-divider" /></li>
                     <li>
-                    <a class="dropdown-item" href="./contacto.html">Contacto</a>
+                      <a class="dropdown-item" href="./figuras.html">Figuras</a>
+                    </li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a class="dropdown-item" href="./contacto.html">Contacto</a>
                     </li>
                     <li>
-                    <a class="dropdown-item" href="./login.html">Log in</a>
+                      <a class="dropdown-item" href="./login.html">Log in</a>
                     </li>
-                </ul>
+                  </ul>
                 </li>
-            </ul>
-            <a class="navbar-brand colocacionTitulo" href="./index.html">
-                <small class="titulo">La tienda friki</small>
-                <img
+              </ul>
+            </div>
+            <div class="col-xxl-8 col-xl-8 col-lg-8 col-md-7 col-sm-9">
+              <a class="navbar-brand colocacionTitulo" href="./index.html">
+              <small class="titulo">La tienda friki</small>
+              <img
                 src="../img/Logo.png"
                 class=""
                 height="70"
                 alt="MDB Logo"
                 loading="lazy"
-                />
+              />
             </a>
-            <form class="d-flex input-group w-auto">
+            </div>
+            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-12">
+              <form class="d-flex input-group w-auto">
                 <input
-                type="Buscar..."
-                class="form-control rounded"
-                placeholder="Buscar..."
-                aria-label="Search"
-                aria-describedby="search-addon"
+                  type="Buscar..."
+                  class="form-control rounded"
+                  placeholder="Buscar..."
+                  aria-label="Search"
+                  aria-describedby="search-addon"
                 />
                 <span class="input-group-text border-0" id="search-addon">
-                <i class="fas fa-search iconos"></i>
+                  <i class="fas fa-search iconos"></i>
                 </span>
                 <a class="nav-link" href="./carrito.html">
-                <i class="fas fa-shopping-cart iconos"></i>
+                  <i class="fas fa-shopping-cart iconos"></i>
                 </a>
-            </form>
-            </div>
+              </form>
+          </div>
+          </div>
         </nav>
-    <!-- Navbar -->
-        <!-- Fin del header-->
-            <div class="row">
-                <div class="col-4"> <img src="https://lafrikileria.com/102105-large_default/figura-luffy-one-piece-banpresto-chronicle-master-24-cm.jpg" class="img-fluid" alt="Luffy"/></div>
+      </header>  
+      <!-- Fin del header-->
+      <!-- Inicio del cuerpo -->
+      <div class="container mt-4">
+        <div class="row">
+            <div class="col-xxl-6 col-xl-6 col-lg-12 col-md-12 col-sm-12 d-flex justify-content-center">
+                <img src="https://lafrikileria.com/102105-large_default/figura-luffy-one-piece-banpresto-chronicle-master-24-cm.jpg" class="img-fluid" alt="Luffy"/>
+            </div>
 
-                <div class="col-4">
-                    <div class="card mt-4 mb-3">
-                        <h5 class="card-header">Featured</h5>
-                        <div class="card-body mt-2 mb-2">
-                            <h5 class="card-title">Special title treatment</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipiscing elit orci, sociis condimentum augue maecenas libero erat cursus litora odio, venenatis in diam ut per varius tempor.</p>
+            <div class="col-xxl-3 col-xl-3 col-lg-6 col-md-6 col-sm-6 d-flex justify-content-center">
+                <div class="card mt-4 mb-3">
+                    <h5 class="card-header">Featured</h5>
+                    <div class="card-body mt-2 mb-2">
+                        <h5 class="card-title">Special title treatment</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipiscing elit orci, sociis condimentum augue maecenas libero erat cursus litora odio, venenatis in diam ut per varius tempor.</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-xxl-3 col-xl-3 col-lg-6 col-md-6 col-sm-6 d-flex justify-content-center"> <!--DETALLES PRODUCTO-->
+
+                    <div class="card mt-3" style="width: 18rem;">
+                        <div class="card-body">
+                        <h5 class="card-title">Producto</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
+                        <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><i class="far fa-heart" style="color: #cd7979"></i> &nbsp; Cras justo odio</li>
+                        <li class="list-group-item">Métodos de pago:
+                                <p><i class="fab fa-amazon-pay"></i>&nbsp;   New York, NY 10012, US</p>
+                                <p><i class="fab fa-cc-paypal"></i> &nbsp; info@example.com</p>
+                                <p><i class="fab fa-alipay"></i> &nbsp; + 01 234 567 88</p>
+                        </li>
+                        </ul>
+                        <!-- <div class="card-body">
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                        </div> -->
                     </div>
-                </div>
-
-
-                <div class="col-4 col-md-4"> <!--DETALLES PRODUCTO-->
-
-                        <div class="card mt-3" style="width: 18rem;">
-                            <div class="card-body">
-                            <h5 class="card-title">Producto</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            </div>
-                            <ul class="list-group list-group-flush">
-                            <li class="list-group-item"><i class="far fa-heart" style="color: #cd7979"></i> &nbsp; Cras justo odio</li>
-                            <li class="list-group-item">Métodos de pago:
-                                    <p><i class="fab fa-amazon-pay"></i>&nbsp;   New York, NY 10012, US</p>
-                                    <p><i class="fab fa-cc-paypal"></i> &nbsp; info@example.com</p>
-                                    <p><i class="fab fa-alipay"></i> &nbsp; + 01 234 567 88</p>
-                            </li>
-                            </ul>
-                            <!-- <div class="card-body">
-                            <a href="#" class="card-link">Card link</a>
-                            <a href="#" class="card-link">Another link</a>
-                            </div> -->
-                        </div>
-
-                </div>
-
-            </div>
-            <div class="row">
-                <div class="col-12 col-md-12 mt-4 ms-3">
-                    <button
-                        class="btn btn-primary"
-                        type="button"
-                        data-mdb-toggle="collapse"
-                        data-mdb-target="#collapseExample"
-                        aria-expanded="false"
-                        aria-controls="collapseExample"
-                    >
-                        Más información <i class="fas fa-angle-down"></i>
-                    </button>
-
-                    <!-- Collapsed content -->
-                    <div class="collapse mt-3" id="collapseExample">
-                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit faucibus, rhoncus sed vestibulum porta torquent nam litora, sollicitudin augue hendrerit praesent odio enim pharetra. Leo lobortis luctus imperdiet dignissim commodo in habitasse parturient, velit mauris hac nulla augue ligula vestibulum, et montes tristique taciti litora cras magnis. Mauris magna sollicitudin ultricies vehicula tempor tristique fermentum magnis diam, libero ligula vestibulum montes tincidunt vivamus convallis lobortis condimentum, torquent felis pharetra platea sociosqu massa facilisi feugiat. Sapien libero tristique potenti penatibus mi aenean inceptos, mattis viverra cras ligula non cursus ac, curae aliquam risus hac enim porta.</p> <p>Urna suspendisse ultrices tristique mauris habitasse nulla, neque pellentesque nullam ridiculus ad natoque, curae egestas litora risus condimentum. Metus cubilia euismod eros phasellus conubia tempus a lectus, arcu lobortis elementum netus maecenas sollicitudin leo convallis mollis, blandit sociosqu praesent molestie ullamcorper interdum consequat. Ligula tempus cubilia elementum aliquet faucibus phasellus, nascetur auctor fames tincidunt penatibus aliquam vehicula, curabitur fermentum sapien cras vitae. Per ut sollicitudin libero porta montes tempus, morbi vel interdum arcu augue nibh, sociis consequat vehicula tellus senectus.</p> <p>Diam tellus urna nec nostra mus curabitur varius pharetra viverra, magna quis convallis fames ut hendrerit aptent habitasse congue lacus, accumsan mollis bibendum praesent quisque mauris felis sagittis. Faucibus vivamus accumsan aliquam diam varius nascetur dignissim ut placerat, parturient lacinia cum volutpat inceptos taciti ac mi leo, orci nisi egestas nullam tempus sapien ante etiam. Nibh pulvinar phasellus aliquam dignissim felis, cum viverra aptent etiam, purus donec in habitant.</p>
-                    </div>
-
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12">
-                    <div class="ctn-lbl-comentar">
-                        <label class="lbl-comentar"> Lista de comentarios</label>
-                    </div>
-                    <div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-width="100%" data-numposts="2"></div>
-                </div>
 
             </div>
 
+        </div>
+        <div class="row mt-3">
+            <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                <button
+                    class="btn btn-primary"
+                    type="button"
+                    data-mdb-toggle="collapse"
+                    data-mdb-target="#collapseExample"
+                    aria-expanded="false"
+                    aria-controls="collapseExample"
+                >
+                    Más información <i class="fas fa-angle-down"></i>
+                </button>
+
+                <!-- Collapsed content -->
+                <div class="collapse mt-3" id="collapseExample">
+                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit faucibus, rhoncus sed vestibulum porta torquent nam litora, sollicitudin augue hendrerit praesent odio enim pharetra. Leo lobortis luctus imperdiet dignissim commodo in habitasse parturient, velit mauris hac nulla augue ligula vestibulum, et montes tristique taciti litora cras magnis. Mauris magna sollicitudin ultricies vehicula tempor tristique fermentum magnis diam, libero ligula vestibulum montes tincidunt vivamus convallis lobortis condimentum, torquent felis pharetra platea sociosqu massa facilisi feugiat. Sapien libero tristique potenti penatibus mi aenean inceptos, mattis viverra cras ligula non cursus ac, curae aliquam risus hac enim porta.</p> <p>Urna suspendisse ultrices tristique mauris habitasse nulla, neque pellentesque nullam ridiculus ad natoque, curae egestas litora risus condimentum. Metus cubilia euismod eros phasellus conubia tempus a lectus, arcu lobortis elementum netus maecenas sollicitudin leo convallis mollis, blandit sociosqu praesent molestie ullamcorper interdum consequat. Ligula tempus cubilia elementum aliquet faucibus phasellus, nascetur auctor fames tincidunt penatibus aliquam vehicula, curabitur fermentum sapien cras vitae. Per ut sollicitudin libero porta montes tempus, morbi vel interdum arcu augue nibh, sociis consequat vehicula tellus senectus.</p> <p>Diam tellus urna nec nostra mus curabitur varius pharetra viverra, magna quis convallis fames ut hendrerit aptent habitasse congue lacus, accumsan mollis bibendum praesent quisque mauris felis sagittis. Faucibus vivamus accumsan aliquam diam varius nascetur dignissim ut placerat, parturient lacinia cum volutpat inceptos taciti ac mi leo, orci nisi egestas nullam tempus sapien ante etiam. Nibh pulvinar phasellus aliquam dignissim felis, cum viverra aptent etiam, purus donec in habitant.</p>
+                </div>
+
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                <div class="ctn-lbl-comentar">
+                    <label class="lbl-comentar"> Lista de comentarios</label>
+                </div>
+                <div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-width="100%" data-numposts="2"></div>
+            </div>
+
+        </div>
+      </div>
+            
+
+<!-- Fin del cuerpo -->
 <!-- Footer -->
     <footer class="text-center text-lg-start bg-light text-muted">
         <!-- Section: Links  -->
